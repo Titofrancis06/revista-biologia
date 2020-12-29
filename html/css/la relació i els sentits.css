@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.barra{
+	width:100%;
+	height:15%;
+	margin:auto;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	background:#78281F;
+}
+.logo{
+	position:relative;
+	left:50px;
+	background:#78281F;
+}
+.unitat2{
+	position:relative;
+	right:60px;
+}
+.unitat1{
+	position:relative;
+	right:80px;
+}
+.unitat2{
+	color:#fbfcfd;
+	padding:10px 25px;
+	background:transparent;
+	border:1px solid #fff; 
+	border-radious:20px;
+	outline:none;
+	cursor:pointer;
+	text-decoration:none;
+}
+.unitat1{
+	color:#fbfcfd;
+	padding:10px 25px;
+	background:transparent;
+	border:1px solid #fff; 
+	border-radious:20px;
+	outline:none;
+	cursor:pointer;
+	text-decoration:none;
+}
+ul, ol{
+	list-style:none;
+}
+.menu1{
+	text-decoration:none;
+	color:white;
+	padding:10px 20px;
+	display:block;
+	position:relative;
+	top:10px;
+	right:80px;
+	background:#1B2631;
+}
+.menu2{
+	text-decoration:none;
+	color:white;
+	padding:10px 20px;
+	display:block;
+	position:relative;
+	top:10px;
+	right:60px;
+	background:#1B2631;
+}
+.menu1:hover{
+	background:#515A5A;
+}
+.menu2:hover{
+	background:#515A5A;
+}
+.nav > li{
+	float:left;
+}
+.nav li ul{
+	display:none;
+	position:absolute;
+	min-width:100px;
+}
+.nav li:hover > ul{
+	display:block;
+}
+.cos{
+	background-image:url(../fotos/jj.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.titol{
+	color:black;
+	text-align:center;
+	position:absolute;
+	top:30%;
+	left:8%;
+	font-size:60px;
+	margin:10px 0 30px;
+	line-height:80px;
+}
+.relació{
+	color:orange;
+}
+.paraules{
+	color:orange;
+}
+.texto{
+	position:relative;
+	top:280px;
+	background:#117864;
+	color:white;
+	margin:20px;
+}
+.textazo{
+	position:relative;
+	left:30px;
+	top:30px;
+	text-align:justify;
+}
+.foto1{
+	position:relative;
+	left:850px;
+	bottom:70px;
+	height:150px;
+}
+.resum{
+	width:755px;
+}
+.titols{
+	color:black;
+	font-size:20px;
+}
+.recepció{
+	position:relative;
+	bottom:40px;
+	width:755px;
+	left:300px;
+}
+.processos{
+	position:relative;
+	bottom:40px;
+	left:300px;
+	color:black;
+	font-size:20px;
+}
+.foto2{
+	position:relative;
+	right:300px;
+	bottom:140px;
+}
